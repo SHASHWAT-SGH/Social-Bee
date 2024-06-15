@@ -1,0 +1,89 @@
+.services{
+    margin-top: 10rem;
+}
+
+.services h1{
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 1;
+}
+
+.services .container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+
+.services .container .item, .services .container .item2{
+    width: 30%;
+}
+
+.services .container .item h3{
+    font-size: 1.8rem;
+    margin-top: 0;
+    text-align: right;
+    margin-right: 8rem;
+}
+
+.services .container .item img, .services .container .item2 img{
+    width: 78%;
+}
+
+.services .container .item p{
+    font-size: 1.3rem;
+}
+
+
+
+.services .container .item2 h3{
+    font-size: 1.8rem;
+    margin-top: 0;
+    text-align: center;
+}
+
+
+.services .container .item2 p{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.services .container .item-mid{
+    margin-top: 15rem;
+}
+
+@media screen and (max-width: 750px){
+
+
+    .services .container{
+        flex-direction: column;
+    }
+
+    .services .container .item, .services .container .item2{
+        width: 100%;
+    }
+
+    .services .container .item img, .services .container .item2 img{
+        width: 85%;
+        padding: 0 8%;
+    }
+
+    .services .container .item-mid{
+        margin-top: 0;
+    }
+
+    .services .container{
+        gap: 5rem;
+    }
+
+    .services .container .item2 h3, .services .container .item h3{
+        text-align: center;
+        margin: 1rem 0;
+        font-size: 2rem;
+    }
+
+    .services .container .item p, .services .container .item2 p{
+        font-size: 1.6rem;
+        margin: 0 2rem;
+    }
+
+}

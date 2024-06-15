@@ -1,0 +1,169 @@
+.about-me-container{
+    /* height: 100vh; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.about-me-container .left, .about-me-container .right{
+    width: 50%;
+    
+}
+
+
+.about-me-container .left .wrapper{
+    /* background-color: red; */
+    padding: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-me-container .left .about-me{
+    /* background-color: aqua; */
+    margin-top: 10rem;
+    
+}
+
+.about-me-container .left .about-me h1{
+    font-size: 4rem;
+    margin-bottom: 1.3rem;
+    /* background-color: red; */
+}
+
+.about-me-container .left .about-me p{
+    text-align: justify;
+    font-size: 1.3rem;
+    margin-bottom: 1.8rem;
+    line-height: 2rem;
+    /* background-color: green; */
+}
+
+.about-me-container .left .contact-now-container{
+    /* background-color: red; */
+    width: 100%;
+    margin-top: 10rem;
+}
+
+.about-me-container .left .btn{
+    background-color: white;
+    color: black;
+    padding: 1.2rem 3.5rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    transition: 0.5s;
+    border: solid black 2px;
+}
+
+.about-me-container .left .btn span{
+    /* background-color: red; */
+}
+
+.about-me-container .left .btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: solid white 2px;
+}
+
+
+.about-me-container .right{
+    /* background-color: green; */
+}
+
+.about-me-container .right .image{
+    width: 100%;
+    object-fit: contain;
+}
+
+
+/* circle */
+.about-me-container .circle{
+    height: 5rem;
+    width: 5rem;
+    background-color: #FBD63B;
+    border-radius: 50%;
+    position: absolute;
+    left: 4rem;
+    top: 1rem;
+}
+
+
+
+@media screen and (max-width: 1450px) {
+    .about-me-container .left .about-me{
+        margin-top: 6rem;    
+    }
+
+    .about-me-container .left .contact-now-container{
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 1310px) {
+    .about-me-container .left .about-me{
+        margin-top: 3rem;
+        
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    .about-me-container .left .about-me{
+        margin-top: 0;
+        
+    }
+}
+
+@media screen and (max-width: 1200px){
+    html{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    html{
+        font-size: 12px;
+    }
+    .about-me-container .left .about-me h1{
+        margin-top: 1rem;
+    }
+    .about-me-container .left .contact-now-container{
+        margin-top: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 850px){
+    html{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    html{
+        font-size: 10px;
+    }
+
+    .about-me-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-me-container .left, .about-me-container .right{
+        width: 100%;
+        
+    }
+    .about-me-container .left .wrapper{
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+        padding: 2rem;
+    }
+    .about-me-container .left .contact-now-container{
+        margin-top: 4rem;
+    }
+
+    .about-me-container .circle{
+        left: auto;
+        right: 4rem;
+        top: 3rem;
+    }
+}

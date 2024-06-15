@@ -1,0 +1,84 @@
+.heroSection .top-container{
+    display: flex;
+    /* background-color: gray; */
+    padding: 6rem 3rem;
+}
+
+.heroSection .top-container .heading-1{
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+.heroSection .top-container .heading-2{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-left: 5rem;
+}
+
+
+.heroSection .bottom-container{
+    background-color: white;
+    min-height: 28rem;
+    border-radius: 3rem 3rem 0 0;
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.heroSection .bottom-container .left-container{
+    padding: 6rem 4rem;
+    /* background-color: firebrick; */
+    width: 50%;
+}
+
+.heroSection .bottom-container .left-container .text-wrapper{
+    
+}
+
+.heroSection .bottom-container .left-container p{
+    font-size: 1.4rem;
+    text-align: justify;
+    line-height: 2.2rem;
+}
+
+.heroSection .bottom-container .right-container{
+    /* background-color: rebeccapurple; */
+    width: 50%;
+    position: relative;
+}
+
+.heroSection .bottom-container .right-container .logo-container{
+    /* background-color: red; */
+    width: 40rem;
+    height: 40rem;
+    position: absolute;
+    bottom: 8rem;
+}
+
+.heroSection .bottom-container .right-container .logo-container img{
+    width: 100%;
+}
+
+.heroSection .bottom-container .right-container .badge-container{
+    /* background-color: red; */
+    width: 20rem;
+    position: absolute;
+    bottom: 8rem;
+    right: 4rem;
+}
+
+.heroSection .bottom-container .right-container .badge-container img{
+    width: 100%;
+}
+
+.heroSection .bottom-container .right-container .elem1-container{
+    /* background-color: red; */
+    width: 20rem;
+    position: absolute;
+    bottom: -3rem;
+    right: 40rem
+}
+
+.heroSection .bottom-container .right-container .elem1-container img{
+    width: 100%;
+}
