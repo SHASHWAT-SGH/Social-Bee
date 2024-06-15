@@ -14,26 +14,16 @@ export default function HeroSection() {
         </div>
       </div>
 
-      <div className="bottom-container">
-        <div className="left-container">
-          <div className="text-wrapper">
-            <p>
-              I help businesses flourish online! I craft engaging social media
-              content and manage winning strategies to amplify your brand voice
-              and reach. Let's turn followers into loyal customers.
-            </p>
-          </div>
-          <ContactNowBTN />
-        </div>
-        <div className="right-container">
-          <div className="logo-container">
-            <img src={require("../assets/elements/1.png")} alt="logo" />
-          </div>
-          <div className="badge-container">
-            <img src={require("../assets/elements/4.png")} alt="logo" />
-          </div>
-          <div className="elem1-container">
-            <img src={require("../assets/elements/3.png")} alt="logo" />
+      <div className="bottom">
+        <img src={require("../assets/logo.png")} alt="logo" className="img" />
+        <div className="wrapper">
+          <p>
+            I help businesses flourish online! I craft engaging social media
+            content and manage winning strategies to amplify your brand voice
+            and reach. Let's turn followers into loyal customers.
+          </p>
+          <div className="btn">
+            <ContactNowBTN />
           </div>
         </div>
       </div>

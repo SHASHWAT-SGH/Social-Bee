@@ -1,84 +1,170 @@
+
 .heroSection .top-container{
     display: flex;
     /* background-color: gray; */
-    padding: 6rem 3rem;
+    padding: 8.8rem 8rem;
 }
 
 .heroSection .top-container .heading-1{
-    font-size: 5rem;
+    font-size: 5.7rem;
     font-weight: 800;
 }
 
 .heroSection .top-container .heading-2{
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     font-weight: 600;
     margin-left: 5rem;
 }
 
-
-.heroSection .bottom-container{
+.heroSection .bottom{
     background-color: white;
-    min-height: 28rem;
-    border-radius: 3rem 3rem 0 0;
-    color: black;
-    display: flex;
-    flex-direction: row;
-}
-
-.heroSection .bottom-container .left-container{
-    padding: 6rem 4rem;
-    /* background-color: firebrick; */
-    width: 50%;
-}
-
-.heroSection .bottom-container .left-container .text-wrapper{
-    
-}
-
-.heroSection .bottom-container .left-container p{
-    font-size: 1.4rem;
-    text-align: justify;
-    line-height: 2.2rem;
-}
-
-.heroSection .bottom-container .right-container{
-    /* background-color: rebeccapurple; */
-    width: 50%;
+    padding: 5rem 8rem;
     position: relative;
+    border-radius: 3rem 3rem 0 0;
 }
 
-.heroSection .bottom-container .right-container .logo-container{
-    /* background-color: red; */
-    width: 40rem;
-    height: 40rem;
+.heroSection .bottom .wrapper{
+    width: 40%;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+}
+
+.heroSection .bottom .wrapper p{
+    padding: 0 6rem 0 0;
+    text-align: justify;
+}
+
+.heroSection .bottom .btn{
+    margin-top: 5rem;
+}
+
+.heroSection .bottom .img{
+    width: 52rem;
     position: absolute;
-    bottom: 8rem;
+    bottom: 5rem;
+    right: 3rem;
 }
 
-.heroSection .bottom-container .right-container .logo-container img{
-    width: 100%;
+@media screen and (max-width: 1170px){
+
+    .heroSection .top-container{
+        padding: 6rem 6rem;
+    }
+
+    .heroSection .bottom{
+        padding: 5rem 6rem;
+    }
+
+    .heroSection .top-container .heading-2{
+        margin-left: 3rem;
+    }
+
+    .heroSection .bottom .img{
+        width: 48rem;
+    }
+
 }
 
-.heroSection .bottom-container .right-container .badge-container{
-    /* background-color: red; */
-    width: 20rem;
-    position: absolute;
-    bottom: 8rem;
-    right: 4rem;
+
+@media screen and (max-width: 1170px){
+    .heroSection .bottom .img{
+        width: 44rem;
+        right: 1rem;
+    }
+    .heroSection .bottom{
+        padding: 3rem 6rem;
+    }
 }
 
-.heroSection .bottom-container .right-container .badge-container img{
-    width: 100%;
+@media screen and (max-width: 900px){
+    
+    .heroSection .top-container .heading-1{
+        font-size: 4rem;
+    }
+
+    .heroSection .top-container .heading-2{
+        font-size: 1.3rem;
+    }
+
+    .heroSection .bottom .img{
+        width: 38rem;
+    }
 }
 
-.heroSection .bottom-container .right-container .elem1-container{
-    /* background-color: red; */
-    width: 20rem;
-    position: absolute;
-    bottom: -3rem;
-    right: 40rem
+@media screen and (max-width: 700px){
+    .heroSection .bottom .img{
+        width: 30rem;
+        bottom: 1.2rem;
+    }
+
+    .heroSection .top-container{
+        justify-content: center;
+    }
+
+    .heroSection .bottom .btn{
+        margin-top: 3rem;
+    }
+
+    .heroSection .bottom .wrapper p{
+        padding-right: 1rem;
+    }
 }
 
-.heroSection .bottom-container .right-container .elem1-container img{
-    width: 100%;
+@media screen and (max-width: 600px){
+    .heroSection .bottom .img{
+        width: 26rem;
+        bottom: 5rem;
+        right: 2rem;
+    }
+
+    .heroSection .bottom .wrapper p{
+        padding-right: 0;
+    }
+
+    .hero-section-btn{
+        width: 80% !important; 
+    }
+}
+
+
+@media screen and (max-width: 500px){
+
+    .heroSection .top-container{
+        padding: 4rem 2rem 12rem 2rem;
+    }
+
+
+    .heroSection .bottom{
+        padding: 13rem 3rem 3rem 3rem;
+    }
+
+    .heroSection .bottom .img{
+        width: 29rem;
+        bottom: auto;
+        right: auto;
+        left: 50%;
+        top: -9rem;
+        transform: translate(-50%)
+    }
+
+    .heroSection .bottom .wrapper{
+        width: auto;
+    }
+
+   
+
+    .heroSection .bottom{
+        padding-top: 16rem;
+    }
+
+    .heroSection .bottom .btn{
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-section-btn{
+        width: 100% !important; 
+    }
 }

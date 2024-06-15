@@ -86,7 +86,7 @@
     border-radius: 50%;
     position: absolute;
     left: 4rem;
-    top: 1rem;
+    top: 3rem;
 }
 
 
@@ -130,6 +130,10 @@
     }
     .about-me-container .left .contact-now-container{
         margin-top: 1.5rem;
+    }
+
+    .about-me-container .circle{
+        top: 1rem;
     }
 }
 
