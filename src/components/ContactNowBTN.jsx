@@ -1,4 +1,5 @@
 import React from "react";
+import redirectToWhatsApp from "../helper/redirectToWhatsapp";
 
 export default function ContactNowBTN() {
   return (
@@ -17,6 +18,7 @@ export default function ContactNowBTN() {
           width: "100%",
           borderRadius: "3rem",
         }}
+        onClick={redirectToWhatsApp}
       />
     </div>
   );

@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/AboutMe.css";
+import redirectToWhatsApp from "../helper/redirectToWhatsapp";
 
 function AboutMe() {
   return (
@@ -31,7 +32,7 @@ function AboutMe() {
               </p>
             </div>
             <div className="contact-now-container">
-              <span className="btn">
+              <span className="btn" onClick={redirectToWhatsApp}>
                 <span>Contact Now!!!</span>
               </span>
             </div>

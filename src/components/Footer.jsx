@@ -15,8 +15,8 @@ function Footer() {
         <div className="middle">
           <span>
             <FontAwesomeIcon icon={faEnvelope} className="icon" />
-            <a href="mailto:beesocialwithudit@gmail.com">
-              beesocialwithudit@gmail.com
+            <a href="mailto:socialbeewithudit@gmail.com">
+              socialbeewithudit@gmail.com
             </a>
           </span>
           <span>
@@ -30,14 +30,14 @@ function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon={faInstagram} className="icon" />
+            <FontAwesomeIcon icon={faInstagram} className="icon icon2" />
           </a>
           <a
             href="https://www.facebook.com/socialbeewithudit?mibextid=ZbWKwL"
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon={faFacebook} className="icon" />
+            <FontAwesomeIcon icon={faFacebook} className="icon icon2" />
           </a>
         </div>
       </div>

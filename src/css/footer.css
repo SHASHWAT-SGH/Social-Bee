@@ -44,6 +44,10 @@ footer{
     color: black;
 }
 
+.footer .icon2{
+    font-size: 2rem;
+}
+
 .footer .middle span:hover{
     color: white;
     cursor: pointer;
