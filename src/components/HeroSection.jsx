@@ -1,6 +1,7 @@
 import React from "react";
 import ContactNowBTN from "./ContactNowBTN";
 import "../css/heroSection.css";
+import { ReactTyped } from "react-typed";
 
 export default function HeroSection() {
   return (
@@ -9,7 +10,12 @@ export default function HeroSection() {
         <div className="heading-container">
           <div className="heading-1">I'm Udit</div>
           <div className="heading-2">
-            Your Partner To Grow Your Brand Online
+            <ReactTyped
+              strings={["Your Partner To Grow Your Brand Online"]}
+              typeSpeed={40}
+              backSpeed={40}
+              loop
+            />
           </div>
         </div>
       </div>

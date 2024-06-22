@@ -110,6 +110,9 @@
     .heroSection .bottom .wrapper p{
         padding-right: 1rem;
     }
+    .heroSection .top-container .heading-container{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 600px){
