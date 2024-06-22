@@ -9,3 +9,18 @@ body {
 html {
   font-size: 14px;
 }
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 8px;
+  background-color: #2f2d2d;
+  border: 1px solid #2f2d2d;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #FBD63B;
+}
