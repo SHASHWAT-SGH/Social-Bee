@@ -5,7 +5,11 @@ function AboutMe() {
   return (
     <>
       <section className="about-me-container">
-        <span className="circle"></span>
+        <img
+          src={require("../assets/PC_Be E Social_GA_Logo Rev3-08.png")}
+          alt="logo"
+          className="bee"
+        />
         <aside className="left">
           <div className="wrapper">
             <div className="about-me">

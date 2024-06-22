@@ -12,7 +12,7 @@ const data = [
     name: "AllYouNeed",
   },
   {
-    image: require("../assets/mothers pride.png"),
+    image: require("../assets/House of taya.jpg"),
     name: "The House Of Taya",
   },
   {

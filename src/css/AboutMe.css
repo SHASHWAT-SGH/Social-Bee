@@ -79,13 +79,11 @@
 
 
 /* circle */
-.about-me-container .circle{
-    height: 5rem;
-    width: 5rem;
-    background-color: #FBD63B;
-    border-radius: 50%;
+.about-me-container .bee{
+    height: 10rem;
+    width: 10rem;
     position: absolute;
-    left: 4rem;
+    left: 2.8rem;
     top: 3rem;
 }
 
@@ -106,12 +104,21 @@
         margin-top: 3rem;
         
     }
+
 }
 
 @media screen and (max-width: 1260px) {
     .about-me-container .left .about-me{
         margin-top: 0;
         
+    }
+
+    .about-me-container .bee{
+        height: 9.5rem;
+        width: 9.5rem;
+       
+        left: 2.4rem;
+        top: 0;
     }
 }
 
@@ -132,8 +139,12 @@
         margin-top: 1.5rem;
     }
 
-    .about-me-container .circle{
-        top: 1rem;
+    .about-me-container .bee{
+        height: 6.5rem;
+        width: 6.5rem;
+       
+        left: 3.5rem;
+        top: 0;
     }
 }
 
@@ -165,9 +176,19 @@
         margin-top: 4rem;
     }
 
-    .about-me-container .circle{
+    .about-me-container .bee{
         left: auto;
         right: 4rem;
         top: 3rem;
+        height: 7.5rem;
+        width: 7.5rem;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .about-me-container .bee{
+        left: auto;
+        right: 2rem;
+        top: 0rem;
     }
 }
