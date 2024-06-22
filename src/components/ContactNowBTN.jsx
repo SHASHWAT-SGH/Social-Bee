@@ -7,6 +7,7 @@ export default function ContactNowBTN() {
         width: "17rem",
         overflow: "hidden",
       }}
+      className="contact-now-hero-section"
     >
       <img
         src={require("../assets/elements/2.png")}
