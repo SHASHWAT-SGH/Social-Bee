@@ -177,18 +177,33 @@
     }
 
     .about-me-container .bee{
-        left: auto;
-        right: 4rem;
-        top: 3rem;
-        height: 7.5rem;
-        width: 7.5rem;
+        display: none;
+    }
+
+    .about-me-container .right{
+        position: absolute;
+        width: 12rem;
+        border-radius: 1rem 0 1rem 0;
+        overflow: hidden;
+        right: 1rem;
+        top: 1.5rem;
     }
 }
 
 @media screen and (max-width: 400px){
-    .about-me-container .bee{
-        left: auto;
-        right: 2rem;
-        top: 0rem;
+    .about-me-container .left .about-me h1{
+        margin-top: 3rem;
+    }
+
+    .about-me-container .right{
+       
+        width: 10rem;
+        
+    }
+}
+
+@media screen and (max-width: 315px){
+    .about-me-container .right{
+        width: 8rem;
     }
 }
