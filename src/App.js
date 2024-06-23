@@ -4,6 +4,7 @@ import AboutMe from "./components/AboutMe";
 import Brands from "./components/Brands";
 import Services from "./components/Services";
 import Footer from "./components/Footer";
+import Popup from "./components/Popup";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Services />
       <Brands />
       <Footer />
+      <Popup />
     </>
   );
 }
