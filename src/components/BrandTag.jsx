@@ -1,4 +1,6 @@
 import React from "react";
+import Reveal from "./Reveal";
+import SlideIn from "./SlideIn";
 
 function BrandTag({ image, name }) {
   return (
@@ -18,25 +20,29 @@ function BrandTag({ image, name }) {
             borderRadius: "50%",
           }}
         >
-          <img
-            src={image}
-            alt="logo"
+          <SlideIn>
+            <img
+              src={image}
+              alt="logo"
+              style={{
+                width: "100%",
+              }}
+            />
+          </SlideIn>
+        </div>
+        <Reveal>
+          <div
             style={{
-              width: "100%",
+              fontSize: "1.1rem",
+              fontWeight: "bolder",
+              textAlign: "center",
+              paddingTop: "1rem",
+              width: "10rem",
             }}
-          />
-        </div>
-        <div
-          style={{
-            fontSize: "1.1rem",
-            fontWeight: "bolder",
-            textAlign: "center",
-            marginTop: "1rem",
-            width: "10rem",
-          }}
-        >
-          {name}
-        </div>
+          >
+            {name}
+          </div>
+        </Reveal>
       </div>
     </>
   );

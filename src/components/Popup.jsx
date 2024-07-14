@@ -52,7 +52,7 @@ function Popup() {
           <img src={require("../assets/Bee-03.png")} alt="" className="img" />
         </div>
         <div className="right">
-          <span className="heading">Book Your Free consultaion now</span>
+          <span className="heading">Book Your Free consultation now</span>
           <div className="timer-container">
             <div className="tag">⚡️ Offer ends in</div>
             <div className="wrapper">
@@ -61,7 +61,7 @@ function Popup() {
           </div>
           <div className="price">
             <span className="new">₹0</span>
-            <span className="old">₹299</span>
+            <span className="old">₹799</span>
           </div>
           <button className="book-now" onClick={redirectToWhatsapp}>
             Book Now
