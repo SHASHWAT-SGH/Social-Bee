@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/brands.css";
 import BrandTag from "./BrandTag";
+import Reveal from "./Reveal";
 
 const data = [
   {
@@ -46,7 +47,9 @@ function Brands() {
           {data.map((item, index) => {
             return <BrandTag image={item.image} name={item.name} key={index} />;
           })}
-          <div className="txt">+ Many More....</div>
+          <div className="txt">
+            <Reveal>+ Many More....</Reveal>
+          </div>
         </div>
       </section>
     </>
